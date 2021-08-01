@@ -8,7 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     TeachersModule,
     MongooseModule.forRoot(
-      '<inserir endereço no mongodb para a API',
+      '',
     ),
   ],
   controllers: [AppController],
